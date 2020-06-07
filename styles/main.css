@@ -140,17 +140,29 @@ i{margin: 3.5%;}
             font-size: 2.3vw;
         }
 }
-
 /* mobile screen */
 @media screen and (max-width:600px){
                 #landing_video{
-                    min-width: 315%; height: auto;
+                    min-width: 335%; height: auto;
                 }
                 footer{
                     /*display : block;*/
-                    font-size: 2.8vw;
+                    font-size: 3vw;
                 }
                 footer div h3 a{
-                    font-size: 3vw;
+                    font-size: 3.2vw;
+                }
+}
+/* mobile screen */
+@media screen and (max-width:400px){
+                #landing_video{
+                    min-width: 375%; height: auto;
+                }
+                footer{
+                    /*display : block;*/
+                    font-size: 3.4vw;
+                }
+                footer div h3 a{
+                    font-size: 3.6vw;
                 }
 }
