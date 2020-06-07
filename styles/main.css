@@ -86,10 +86,10 @@ header{
 #picture_and_text_home2{background-image: url(../images/flower.jpg);}
 #picture_and_text_home3{background-image: url(../images/prayer.jpg);}
 .text_on_pic_describe{
-    position: relative; width: 40%; left: 57%; top: 70%; padding: 2% 3%; color: #fff; background-color: #42BFDD; font-size: 2.9vw;
+    position: relative; width: 40%; left: 60%; top: 70%; padding: 2% 5% 2% 2%; color: #fff; background-color: #42BFDD; font-size: 2.8vw;
 }
 .text_on_pic_action{
-    position: relative; width: 46%; left: 27%; top: 75%; padding: 2% 3%; color: #084B83; background-color: #fff;  text-align: center; border-radius: 10px; font-family: 'Satisfy', cursive; font-size: 2.7vw;
+    position: relative; width: 46%; left: 27%; top: 75%; padding: 2%; color: #084B83; background-color: #fff;  text-align: center; border-radius: 10px; font-family: 'Satisfy', cursive; font-size: 2.6vw;
 }
 .home_text{
     font-size : 5.5vw; padding: 25% 10%;
@@ -125,8 +125,12 @@ i{margin: 3.5%;}
 /*Tablet specific styles*/
 @media screen and (max-width:980px){
         #landing_video{ min-width: 200%; height: auto; }
-        /*#landing_view{ height : 90vh; }
-        #welcome_wrapper{ min-height: 90vh; }*/
+        .text_on_pic_describe{
+            width: 45%; left: 55%; font-size: 2.7vw;
+        }
+        .text_on_pic_action{
+            width: 58%; left: 22%; top: 68%; font-size: 2.5vw;
+        }
         footer{
             grid-template-columns: 1fr 1fr;
             font-size: 2.1vw;
