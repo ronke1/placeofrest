@@ -144,7 +144,7 @@ i{margin: 3.5%;}
 /* mobile screen */
 @media screen and (max-width:600px){
                 #landing_video{
-                    min-width: 300%; height: auto;
+                    min-width: 315%; height: auto;
                 }
                 footer{
                     /*display : block;*/
