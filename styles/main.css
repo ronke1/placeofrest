@@ -125,7 +125,7 @@ i{margin: 3.5%;}
 
 /*Tablet specific styles*/
 @media screen and (max-width:960px){
-        #landing_video{ min-width: 180%; height: auto; }
+        #landing_video{ min-width: 160%; height: auto; }
         /*#landing_view{ height : 90vh; }
         #welcome_wrapper{ min-height: 90vh; }*/
         .text_on_pic_action{ width: 60%; left: 20%; }
@@ -141,7 +141,7 @@ i{margin: 3.5%;}
 /* mobile screen */
 @media screen and (max-width:600px){
                 #landing_video{
-                    min-width: 350%; height: auto;
+                    min-width: 250%; height: auto;
                 }
                 footer{
                     /*display : block;*/
