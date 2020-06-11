@@ -39,10 +39,22 @@
         </div>
         <section id="landing_view">
             <div id="welcome_wrapper">
-                <h3>Welcome to</h3>
+                <h2>Welcome to</h2>
                 <div id="church_name"><b>RCCG Place of Rest Parish</b></div>
                 <br>
-                <h2>" Where God dwells, to give rest . . . "</h2>
+                <div class="page_section" id="latest_message">
+                    <div>LATEST SUNDAY MESSAGE</div>
+                    <h3>Recipes for Open Heavens</h3>
+                    <h5>by: Pastor Johnson</h5>
+                    <audio id="latest_audio" src="sunday_messages/recipes_for_open_heaven.mp3" type="audio/mp3"></audio>
+                    <div class="audio_control"> 
+                      <span onclick="document.getElementById('latest_audio').play()"><i class="fas fa-play-circle"></i></span> 
+                      <span onclick="document.getElementById('latest_audio').pause()"><i class="fas fa-pause-circle"></i></span>
+                      <span onclick="document.getElementById('latest_audio').volume -= 0.1"><i class="fas fa-volume-down"></i></span> 
+                      <span onclick="document.getElementById('latest_audio').volume += 0.1"><i class="fas fa-volume-up"></i></span>
+                        <span><a href="sunday_messages/recipes_for_open_heaven.mp3" download><i class="fas fa-arrow-circle-down"></i></a></span>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="picture_box picture_and_text" id="picture_box_home1">
