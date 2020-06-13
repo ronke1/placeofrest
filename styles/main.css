@@ -50,11 +50,17 @@ header{
 #landing_video{
     min-width: 135%; min-height: 100vh; height: auto;
 }
+.action_wrapper{
+    padding: 5% 5% 1%; 
+}
+.action_wrapper img{
+    margin-top: 1%; width:12.5%;
+}
 .event_viewer{
     padding: 3.5%;
 }
 .picture_and_text{ width:100%; overflow: hidden; }
-#landing_view{ height : 100vh; overflow: hidden; display: flex;  }
+#landing_view{ height : 100vh; overflow: hidden; display: flex; justify-content: center; align-content: center;}
 
 .page_section{ padding: 4% 7.5%; }
 .page_section h2{ 
@@ -67,12 +73,14 @@ header{
 #welcome_wrapper{
     width:100%; height: 100vh; padding: 10%;
     color: #fff; background-color: rgba(0, 32, 128, 0.6);
-    display: flex; flex-direction: column; justify-content: center; align-self: flex-end;
+    display: flex; flex-direction: column; justify-content: center; align-self: flex-end; text-align: center;
 }
+#welcome_wrapper h4{font-family: 'Satisfy', cursive; font-size: 2.1vw; color: #42BFDD; text-align: left; padding-left: 15vw;}
 #welcome_wrapper h3{ font-size: 3.7vw; }
 #welcome_wrapper a{ font-size: 3vw; color:#fff; margin:2%;}
-#church_name{ font-size: 6.5vw;}
-#welcome_wrapper h2{font-family: 'Satisfy', cursive; font-size: 3.8vw; color: #42BFDD;}
+#church_name{ font-size: 4.75vw;}
+
+
 .social_wrapper{ display: flex; }
 .social_wrapper a{ padding: 5%; font-size: 5em; color: #084B83;}
 .picture_and_text{ 
@@ -85,10 +93,10 @@ header{
     position: relative; width: 46%; left: 27%; top: 65%; padding: 2%; color: #084B83; background-color: #fff;  text-align: center; border-radius: 10px; font-family: 'Satisfy', cursive; font-size: 2.2vw;
 }
 .home_text{
-    font-size : 5.5vw; padding: 11% 10%;
+    font-size : 4.5vw;padding: 11% 10%;
     text-align: center; color:#fff; font-family: 'Satisfy', cursive; 
 }
-.home_text_small{ font-size : 3.5vw; padding: 12% 12.5%;
+.home_text_small{ font-size : 3vw; padding: 5% 10%;
     text-align: center; color:#fff; font-family: 'Satisfy', cursive; }
 .ruler{position:relative; width: 50%; left: 25%; height: 2.5px; background-color: #42BFDD; margin: 4%}
 .ruler2{position:relative; width: 40%; left: 30%; height: 0.7vh; background-color: #028090; margin: 1.5%;}
@@ -203,12 +211,12 @@ footer{
     color: #fff; background-color: #084B83;
     font-size: 1.55vw;
 }
+footer a{color:#fff;}
 .footer_item{ margin: 3% 2%; }
 .footer_item a{color:#fff;}
 footer div h3{ text-transform: uppercase; margin-bottom: 2%; padding: 1% 0 2.5%;}
 footer div h3 a{
     text-transform: uppercase;
-    color: #fff;
     font-size: 1.7vw;
     padding : 2% 1%;
     border-bottom: 1.5px solid #42BFDD;
@@ -224,7 +232,9 @@ footer i{margin: 2%;}
 /*Tablet specific styles*/
 @media screen and (max-width:980px){
         #landing_video{ min-width: 185%; height: auto; }
-        #welcome_wrapper a{ font-size: 3.3vw; margin:3%;}
+        #welcome_wrapper h4{font-size: 2.4vw; padding-left: 12.5vw;}
+        #welcome_wrapper a{ font-size: 3.6vw; margin:3%;}
+        #church_name{ font-size: 5.1vw;}
         .picture_and_text{ height: 80vh; }
         .text_on_pic_describe{
             width: 47%; left: 53%; font-size: 2.5vw; 
@@ -233,8 +243,8 @@ footer i{margin: 2%;}
             width: 58%; left: 22%; top: 65%; font-size: 2.4vw;
         }
         .home_text{
-            font-size : 5.5vw; padding: 25% 10%; }
-        .home_text_small{ font-size : 3.5vw; padding: 35% 12.5%;}
+            font-size : 5.5vw; padding: 15% 10%; }
+        .home_text_small{ font-size : 3.5vw; padding: 5.5% 10%;}
     
         .buffer{ height: 10vh; min-height: 10vh;}
         .page_title{padding: 2%;}
@@ -250,6 +260,9 @@ footer i{margin: 2%;}
 @media screen and (max-width:600px){
                 #landing_video{
                     min-width: 330%; height: auto;
+                }
+                .action_wrapper{
+                    padding: 10% 5% 1%; 
                 }
                 .picture_and_text{ height: 70vh; }
                 .text_on_pic_describe{
