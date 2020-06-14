@@ -9,43 +9,35 @@
 
 html{
     font-family: 'Cormorant Garamond', serif;
-    max-width: 100%;
 }
 a{ text-decoration: none;}
 a:hover{color:#fff;}
-body{ max-width: 100%; }
-header{
-    min-width: 100%; z-index:2;
-    background-color: #fff; color: #001a33;
-    max-width: 100%;
-    border-bottom: 1px solid grey;
+body{ max-width: 100%;}
+header{ position: absolute; top:0;
+    min-width: 100%; max-width: 100%; background: none; z-index: 3; 
 }
-#logo_menu_wrapper{padding: 3% 5% 1.5%;}
-#logo{width: 30vh;}
+#logo_menu_wrapper{padding: 4% 5% 2.5%;}
+#logo{width: 28vh;}
 .hamburger { display: inline-block; float: right; cursor: pointer;}
 
 .line1, .line2, .line3 {
-  width: 35px; height: 5px;
-  background-color: #084B83;
-  margin: 6px 0;
-  transition: 0.6s;
+  width: 35px; height: 5px; margin: 6px 0;
+  background-color: #fff; transition: 0.6s;
 }
-
 .change .line1 {
   transform: rotate(-45deg) translate(-9px, 6px); -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  
 }
 .change .line2 {opacity: 0;}
 .change .line3 {
   transform: rotate(45deg) translate(-8px, -8px); -webkit-transform: rotate(45deg) translate(-8px, -8px);
 }
-#nav_wrapper{ display:none; text-align: center; }
-#nav_wrapper div{padding: 10px; border-top: 1px solid #084B83; color: #084B83; }
-.nav_item{ padding: 1% 7%; text-decoration: none; color: #00ACE6;}
-#nav_wrapper div:hover, .nav_item:hover {background-color: #084B83; color:#fff; }
+#nav_wrapper{ display:none; text-align: right;}
+#nav_wrapper div{padding: 5px; color: #fff; }
+.nav_item{ padding: 1% 8%; text-decoration: none; color: #fff;}
+#nav_wrapper div:hover{background-color: rgba(0,0,0,0.5); }
 .background_video{
     position: fixed; top: 0;
-    min-width:100vw; min-height: 100vh; z-index: -1; overflow:hidden; background-color: rgba(0,0,0,0.1);
+    min-width:100vw; min-height: 100vh; z-index: -1; overflow:hidden;
 }
 #landing_video{
     min-width: 135%; min-height: 100vh; height: auto;
@@ -60,7 +52,7 @@ header{
     padding: 3.5%;
 }
 .picture_and_text{ width:100%; overflow: hidden; }
-#landing_view{ height : 100vh; overflow: hidden; display: flex; justify-content: center; align-content: center;}
+#landing_view{ height : 100vh; overflow: hidden; display: flex; flex-direction: column; justify-content: center; align-content: flex-end;}
 
 .page_section{ padding: 4% 7.5%; }
 .page_section h2{ 
@@ -71,9 +63,9 @@ header{
     color:#fff; background-color: #084B83;
 }
 #welcome_wrapper{
-    width:100%; height: 100vh; padding: 10%;
-    color: #fff; background-color: rgba(0, 32, 128, 0.6);
-    display: flex; flex-direction: column; justify-content: center; align-self: flex-end; text-align: center;
+    width:100%; height: 100vh; padding: 20% 8% 2%;
+    color: #fff; background-color: rgba(0, 32, 128, 0.4);
+    display: flex; flex-direction: column; justify-content: center; text-align: center;
 }
 #welcome_wrapper h4{font-family: 'Satisfy', cursive; font-size: 2.1vw; color: #42BFDD; text-align: left; padding-left: 15vw;}
 #welcome_wrapper h3{ font-size: 3.7vw; }
@@ -101,12 +93,16 @@ header{
 .ruler{position:relative; width: 50%; left: 25%; height: 2.5px; background-color: #42BFDD; margin: 4%}
 .ruler2{position:relative; width: 40%; left: 30%; height: 0.7vh; background-color: #028090; margin: 1.5%;}
 
-.buffer{ height: 13.5vh; min-height: 13.5vh; color: #fff; background-color: #084B83; display: flex; justify-content: center; align-items: flex-end;}
+.buffer{ min-height: 45vh; height: 45vh; color: #fff; 
+    display: flex; justify-content: center; align-items: flex-end;
+    background: url(../images/buffer_worship.jfif) center bottom no-repeat; background-size: cover; z-index: 2;
+}
 .page_title{padding: 1%; width:90%; text-align:center; font-family: 'Satisfy', cursive;}
+
 .heading_button_wrapper{display: flex; justify-content: space-between; align-items: center;}
 .more_button{color: #42BFDD;}
 .sub_section{margin: 3% 3.5%;}
-.sub_section div{margin: auto;}
+.sub_section div{margin: 3.5% auto;}
 .sub_section ul{padding-left: 3.5%;}
 .sub_section h3{font-family: 'Satisfy', cursive; color: #023e8a;}
 .sub_section h4{text-transform: uppercase;}
@@ -245,7 +241,7 @@ footer i{margin: 2%;}
             font-size : 5.5vw; padding: 15% 10%; }
         .home_text_small{ font-size : 3.5vw; padding: 5.5% 10%;}
     
-        .buffer{ height: 10vh; min-height: 10vh;}
+        .buffer{ height: 50vh; min-height: 50vh;}
         .page_title{padding: 2%;}
         footer{
             grid-template-columns: 1fr 1fr;
