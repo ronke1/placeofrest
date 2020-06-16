@@ -10,8 +10,9 @@
 html{
     font-family: 'Cormorant Garamond', serif;
 }
-a{ text-decoration: none;}
+a{color: #fff; text-decoration: none;}
 a:hover{color:#fff;}
+p{margin: 2.5% 1%;}
 body{ max-width: 100%;}
 header{ position: absolute; top:0;
     min-width: 100%; max-width: 100%; background: none; z-index: 3; 
@@ -54,7 +55,7 @@ header{ position: absolute; top:0;
 .picture_and_text{ width:100%; overflow: hidden; }
 #landing_view{ height : 100vh; overflow: hidden; display: flex; flex-direction: column; justify-content: center; align-content: flex-end;}
 
-.page_section{ padding: 4% 7.5%; }
+.page_section{ padding: 2.5% 7.5% 1.5%;}
 .page_section h2{ 
     font-family: 'Satisfy', cursive;
     color: #42BFDD;
@@ -101,9 +102,9 @@ header{ position: absolute; top:0;
 
 .heading_button_wrapper{display: flex; justify-content: space-between; align-items: center;}
 .more_button{color: #42BFDD;}
-.sub_section{margin: 3% 3.5%;}
+.sub_section{margin: 3% 3%;}
 .sub_section div{margin: 3.5% auto;}
-.sub_section ul{padding-left: 3.5%;}
+.sub_section ul, .sub_section ol{padding-left: 5%;}
 .sub_section h3{font-family: 'Satisfy', cursive; color: #023e8a;}
 .sub_section h4{text-transform: uppercase;}
 
@@ -127,11 +128,11 @@ header{ position: absolute; top:0;
 #vision_mission, #what_to_expect, #our_roots, #statement_of_faith{
     margin: 0 8.5%;
 }
-#sub_section_vision_mission, #sub_section_what_to_expect, #sub_section_our_roots, #sub_section_statement_of_faith{
+#sub_section_vision_mission, #sub_section_what_to_expect, #sub_section_our_roots, #sub_section_statement_of_faith, #sub_section_benevolence_responsibilities{
     display: none;
 }
 #sub_section_pastors{display: flex; justify-content: center; text-align: center;}
-
+#sub_section_what_to_expect a{color:#06D6A0;}
 /*begin divs with centered picture in background*/
 .picture_box{background: center center no-repeat; background-size:cover;}
 .picture_box_ministry{width:100%; height:40%;}
@@ -139,8 +140,11 @@ header{ position: absolute; top:0;
 #picture_box_home1{background-image: url(../images/church5.jpg);}
 #picture_box_home2{background-image: url(../images/pastorj_auditorium.jpg);}
 #picture_box_home3{background-image: url(../images/flower.jpg);}
-#picture_box_home4{background-image: url(../images/prayer.jpg);}
+#picture_box_home4{background-image: url(../images/kids.webp);}
 #picture_box_slash{background: url(../images/slash.jpg);}
+#picture_box_shapes{background: url(../images/shapes_colors.jpg);}
+#picture_box_person_f{background: url(../images/person_f.webp);}
+#picture_box_person_m{background: url(../images/person_m.webp);}
 #picture_box_pastor_j{ background-image: url(../images/pastorj.jpg); }
 #picture_box_pastor_f{ background-image: url(../images/pastorf.jpg); }
 #picture_box_bible_study{background-image: url(../images/bible_study.jpg);}
@@ -178,6 +182,11 @@ header{ position: absolute; top:0;
 /*Ministries Begin*/
 .ministry_wrapper{display; flex; flex-direction: column; width: 300px; height: 420px; margin: 2%;padding: 1% 0.7%; box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);}
 /*Ministries End*/
+/*Benevolence Begin*/
+.benevolence_wrapper{display; flex; flex-direction: column; width: 315px; height: 260px; margin: 2%;padding: 2%; text-align:center; box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);}
+.icon_benevolence{font-size: 3em; color: rgba(26,210,240,0.65);}
+.colored_box{padding: 3.5% 2%; margin: 2.5% 0%; background-color: rgba(26,210,240,0.65);}
+/*Benevolence End*/
 
 /*Messages Begin*/
 #latest_message{display: flex; flex-direction: column; justify-content: center; padding: 2%; margin: 5%; text-align: center; border-bottom: 1px solid #028090;}
@@ -189,13 +198,18 @@ header{ position: absolute; top:0;
 .audio_control span a{color: #084B83;}
 .icon_wrapper{display:flex;justify-content: space-around; color: #00b2ca; font-size: 22px; text-align: center;}
 .icon_wrapper_v{flex-direction: column;}
+.media_wrapper{
+    display: flex; justify-content: space-around; align-items: center; padding: 1.5% 2%;
+}
+.media_wrapper img{width:65%;}
+/*
 .message_wrapper{
     width: 315px; height: 120px; margin: 1.5%;
     display: grid; grid-template-columns: 5fr 1fr;
     box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .message_icon{display:flex; align-items: center; margin: auto; font-size:2em; color:#084B83;}
-.message_details{background-color: #6FBEDB;}
+.message_details{background-color: #6FBEDB;}*/
 /*...Messages End...*/
 
 /*...Footer Styles Begin*/
