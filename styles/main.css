@@ -8,7 +8,7 @@
 }
 
 html{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'EB Garamond', serif;
 }
 a{color: #fff; text-decoration: none;}
 a:hover{color:#fff;}
@@ -44,10 +44,10 @@ header{ position: absolute; top:0;
     min-width: 135%; min-height: 100vh; height: auto;
 }
 .action_wrapper{
-    padding: 5% 5% 1%; 
+    padding: 3% 5% 2%; 
 }
 .action_wrapper img{
-    margin-top: 1%; width:12.5%;
+    margin-top: 1%; width:10.5%;
 }
 .event_viewer{
     padding: 3.5%;
@@ -72,8 +72,6 @@ header{ position: absolute; top:0;
 #welcome_wrapper h3{ font-size: 3.7vw; }
 #welcome_wrapper a{ font-size: 3vw; color:#fff; margin:2%;}
 #church_name{ font-size: 4.75vw;}
-
-
 .social_wrapper{ display: flex; }
 .social_wrapper a{ padding: 5%; font-size: 5em; color: #084B83;}
 .picture_and_text{ 
@@ -98,7 +96,7 @@ header{ position: absolute; top:0;
     display: flex; justify-content: center; align-items: flex-end;
     background: url(../images/buffer_worship.jfif) center bottom no-repeat; background-size: cover; z-index: 2;
 }
-.page_title{padding: 1%; width:90%; text-align:center; font-family: 'Satisfy', cursive;}
+.page_title{padding: 1%; width:90%; text-align:center; font-family: 'Pacifico', cursive;}
 
 .heading_button_wrapper{display: flex; justify-content: space-between; align-items: center;}
 .more_button{color: #42BFDD;}
@@ -180,10 +178,10 @@ header{ position: absolute; top:0;
 .box_text_desc_action_ministries{height:60%; text-align:center; }
 
 /*Ministries Begin*/
-.ministry_wrapper{display; flex; flex-direction: column; width: 300px; height: 420px; margin: 2%;padding: 1% 0.7%; box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);}
+.ministry_wrapper{display; flex; flex-direction: column; width: 300px; height: 385px; margin: 2%;padding: 1% 0.7%; box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);}
 /*Ministries End*/
 /*Benevolence Begin*/
-.benevolence_wrapper{display; flex; flex-direction: column; width: 315px; height: 260px; margin: 2%;padding: 2%; text-align:center; box-shadow: 1px 2px 1px 0.5px rgba(0, 0, 0, 0.2), 1px 1px 2px 2px rgba(0, 0, 0, 0.1);}
+.benevolence_wrapper{display; flex; flex-direction: column; width: 315px; height: 260px; margin: 2%;padding: 2%; text-align:center; border: 1px solid #CCFAFF;}
 .icon_benevolence{font-size: 3em; color: rgba(26,210,240,0.65);}
 .colored_box{padding: 3.5% 2%; margin: 2.5% 0%; background-color: rgba(26,210,240,0.65);}
 /*Benevolence End*/
@@ -215,12 +213,14 @@ header{ position: absolute; top:0;
 /*...Footer Styles Begin*/
 footer{
     display: grid;
-    grid-template-columns: repeat(4,1fr); grid-gap: 2.5%;
+    grid-template-columns: repeat(3,1fr); grid-gap: 2.5%;
     padding: 3.5%;
     color: #fff; background-color: #084B83;
     font-size: 1.55vw;
+    background: url(../images/footer.jpg) center bottom no-repeat; background-size: cover;
 }
 footer a{color:#fff;}
+footer a:hover{color:#42BFDD;}
 .footer_item{ margin: 3% 2%; }
 .footer_item a{color:#fff;}
 footer div h3{ text-transform: uppercase; margin-bottom: 2%; padding: 1% 0 2.5%;}
@@ -271,7 +271,7 @@ footer i{margin: 2%;}
                     min-width: 330%; height: auto;
                 }
                 .action_wrapper{
-                    padding: 10% 5% 1%; 
+                    padding: 5% 5% 3%; 
                 }
                 .picture_and_text{ height: 70vh; }
                 .text_on_pic_describe{
