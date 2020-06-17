@@ -68,10 +68,10 @@ header{ position: absolute; top:0;
     color: #fff; background-color: rgba(0, 32, 128, 0.4);
     display: flex; flex-direction: column; justify-content: center; text-align: center;
 }
-#welcome_wrapper h4{font-family: 'Satisfy', cursive; font-size: 2.1vw; color: #42BFDD; text-align: left; padding-left: 15vw;}
+#welcome_wrapper h4{font-family: 'Satisfy', cursive; font-size: 1.9vw; color: #42BFDD; text-align: left; padding-left: 15vw;}
 #welcome_wrapper h3{ font-size: 3.7vw; }
-#welcome_wrapper a{ font-size: 3vw; color:#fff; margin:2%;}
-#church_name{ font-size: 4.75vw;}
+#welcome_wrapper a{ color:#fff; margin:1%;}
+#church_name{ font-size: 3.7vw;}
 .social_wrapper{ display: flex; }
 .social_wrapper a{ padding: 5%; font-size: 5em; color: #084B83;}
 .picture_and_text{ 
@@ -241,9 +241,9 @@ footer i{margin: 2%;}
 /*Tablet specific styles*/
 @media screen and (max-width:980px){
         #landing_video{ min-width: 195%; height: auto; }
-        #welcome_wrapper h4{font-size: 2.4vw; padding-left: 12.5vw;}
-        #welcome_wrapper a{ font-size: 3.6vw; margin:3%;}
-        #church_name{ font-size: 5.1vw;}
+        #welcome_wrapper h4{font-size: 2.2vw; padding-left: 12.5vw;}
+        #welcome_wrapper a{ margin:2%;}
+        #church_name{ font-size: 4.2vw;}
         .picture_and_text{ height: 80vh; }
         .text_on_pic_describe{
             width: 47%; left: 53%; font-size: 2.5vw; 
@@ -259,10 +259,10 @@ footer i{margin: 2%;}
         .page_title{padding: 2%;}
         footer{
             grid-template-columns: 1fr 1fr;
-            font-size: 2.3vw;
+            font-size: 1.9vw;
         }
         footer div h3 a{
-            font-size: 2.5vw;
+            font-size: 2.15vw;
         }
 }
 /* mobile screen */
@@ -273,6 +273,9 @@ footer i{margin: 2%;}
                 .action_wrapper{
                     padding: 5% 5% 3%; 
                 }
+                
+                #welcome_wrapper h4{font-size: 2.5vw; padding-left: 16vw;}
+                #church_name{ font-size: 4.7vw;}
                 .picture_and_text{ height: 70vh; }
                 .text_on_pic_describe{
                     width: 50%; left: 50%; font-size: 2.5vw;
@@ -291,10 +294,10 @@ footer i{margin: 2%;}
                 #sub_section_pastors{flex-direction:column; justify-content: center; }
                 footer{
                     /*display : block;*/
-                    font-size: 3.2vw;
+                    font-size: 2.15vw;
                 }
                 footer div h3 a{
-                    font-size: 3.4vw;
+                    font-size: 2.4vw;
                 }
 }
 
