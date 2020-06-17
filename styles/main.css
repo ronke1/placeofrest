@@ -41,7 +41,7 @@ header{ position: absolute; top:0;
     min-width:100vw; min-height: 100vh; z-index: -1; overflow:hidden;
 }
 #landing_video{
-    min-width: 135%; min-height: 100vh; height: auto;
+    min-width: 145%; min-height: 100vh; height: auto;
 }
 .action_wrapper{
     padding: 3% 5% 2%; 
@@ -240,7 +240,7 @@ footer i{margin: 2%;}
 
 /*Tablet specific styles*/
 @media screen and (max-width:980px){
-        #landing_video{ min-width: 185%; height: auto; }
+        #landing_video{ min-width: 195%; height: auto; }
         #welcome_wrapper h4{font-size: 2.4vw; padding-left: 12.5vw;}
         #welcome_wrapper a{ font-size: 3.6vw; margin:3%;}
         #church_name{ font-size: 5.1vw;}
@@ -268,7 +268,7 @@ footer i{margin: 2%;}
 /* mobile screen */
 @media screen and (max-width:600px){
                 #landing_video{
-                    min-width: 330%; height: auto;
+                    min-width: 360%; height: auto;
                 }
                 .action_wrapper{
                     padding: 5% 5% 3%; 
