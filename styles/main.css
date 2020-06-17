@@ -78,10 +78,10 @@ header{ position: absolute; top:0;
     height: 90vh; margin:0; min-width: 100%;
 }
 .text_on_pic_describe{
-    position: relative; width: 45%; left: 55%; top: 55%; padding: 2% 3.5% 2% 2%; color: #fff; background-color: #42BFDD; font-size: 2.4vw;
+    position: relative; width: 45%; left: 55%; top: 55%; padding: 2% 3.5% 2% 2%; color: #fff; background-color: #42BFDD; font-size: 2.1vw;
 }
 .text_on_pic_action{
-    position: relative; width: 46%; left: 27%; top: 65%; padding: 2%; color: #084B83; background-color: #fff;  text-align: center; border-radius: 10px; font-family: 'Satisfy', cursive; font-size: 2.2vw;
+    position: relative; width: 46%; left: 27%; top: 65%; padding: 2%; color: #084B83; background-color: #fff;  text-align: center; border-radius: 10px; font-family: 'Satisfy', cursive; font-size: 2vw;
 }
 .home_text{
     font-size : 4.5vw;padding: 11% 10%;
@@ -246,10 +246,10 @@ footer i{margin: 2%;}
         #church_name{ font-size: 4.2vw;}
         .picture_and_text{ height: 80vh; }
         .text_on_pic_describe{
-            width: 47%; left: 53%; font-size: 2.5vw; 
+            width: 47%; left: 53%; font-size: 2.3vw; 
         }
         .text_on_pic_action{
-            width: 58%; left: 22%; top: 65%; font-size: 2.4vw;
+            width: 58%; left: 22%; top: 65%; font-size: 2.2vw;
         }
         .home_text{
             font-size : 5.5vw; padding: 15% 10%; }
@@ -278,10 +278,11 @@ footer i{margin: 2%;}
                 #church_name{ font-size: 4.7vw;}
                 .picture_and_text{ height: 70vh; }
                 .text_on_pic_describe{
-                    width: 50%; left: 50%; font-size: 2.5vw;
+                    width: 50%; left: 50%; font-size: 2.3vw;
                 }
                 .text_on_pic_action{
-                    width: 60%; left: 20%; top: 60%; font-size: 2.3vw;
+                    width: 60%; left: 20%; top: 60%; font-size: 2.1vw;
+                    width: 60%; left: 20%; top: 60%; font-size: 2.2vw;
                 }
                 .home_text_small{ font-size : 4vw; padding: 18.5% 13.5%;}
                 #vision_mission, #what_to_expect, #our_roots, #statement_of_faith{
@@ -297,7 +298,7 @@ footer i{margin: 2%;}
                     font-size: 2.15vw;
                 }
                 footer div h3 a{
-                    font-size: 2.4vw;
+                    font-size: 2.35vw;
                 }
 }
 
